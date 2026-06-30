@@ -6,6 +6,7 @@ option(WGFX_BUILD_SDL_BRIDGE "Build the SDL3-to-WebGPU surface bridge" ON)
 add_subdirectory(deps/webgpu)
 
 if(WGFX_BUILD_SDL_BRIDGE)
+add_subdirectory(deps/sdl3)
 	add_subdirectory(deps/sdl2webgpu)
 endif()
 

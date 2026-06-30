@@ -1,3 +1,7 @@
 [submodule "deps/webgpu"]
 	path = deps/webgpu
 	url = https://github.com/eliemichel/WebGPU-distribution
+[submodule "deps/sdl3"]
+	path = deps/sdl3
+	url = https://github.com/libsdl-org/SDL.git
+	branch = release-3.4.x
